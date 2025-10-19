@@ -1,0 +1,34 @@
+[project]
+name = "omni-file-converter-mcp"
+version = "0.0.1"
+description = "omni file converter helps convert your PDF,Officle files output to images, documents, pptx and plaintext markdown, etc."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"PyMuPDF==1.26.5"
+]
+
+authors = [
+    { email = "aihubadmin@126.com" }
+]
+license = { text = "MIT License" }
+keywords = ["File Converter", "Office File", "AI Agent"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+Homepage = "https://www.deepnlp.org/store/ai-agent/mcp-server"
+Repository = "https://github.com/AI-Agent-Hub/AI-Agent-Marketplace"
+
+
+[project.scripts]
+omni-file-converter-mcp = "omni_file_converter_mcp.server:main"
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple/"
+name = "pypi" 
+
