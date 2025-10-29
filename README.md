@@ -95,3 +95,10 @@ Run From Your Local Folder
 }
 ```
 
+
+#### AI Agent Marketplace Index And Router Support
+[![AI Agent Marketplace And Router](https://www.deepnlp.org/api/ai_agent_marketplace/svg?name=AI-Hub-Admin/omni-file-converter-mcp)](https://deepnlp.org/store/ai-agent/ai-agent-marketplace/pub-AI-Hub-Admin/omni-file-converter-mcp)
+```
+curl 'https://www.deepnlp.org/api/ai_agent_marketplace/v2?id=AI-Hub-Admin/omni-file-converter-mcp'
+```
+    
